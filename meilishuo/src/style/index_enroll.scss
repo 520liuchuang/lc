@@ -1,0 +1,144 @@
+*{
+  margin:0;
+  padding:0;
+}
+body {
+  background: #f5f5f5; }
+
+.header {
+  width: 100%;
+  background-color: #fff;
+  padding: 20px 0;
+}
+.header .logo {
+    margin: 0 auto;
+    width: 1200px; 
+}
+.header .logo a img {
+      width: 225px;
+      vertical-align: middle;
+      height: 52px;
+}
+
+.content {
+  width: 100%;
+  height: 600px;
+  background: url(../img/login-bg.png) no-repeat center;
+  margin-bottom: 20px;
+  position: relative;
+}
+  .content .con {
+    width: 1200px;
+    margin: 0 auto;
+}
+.content .con .login {
+    width: 400px;
+    position: absolute;
+    top: 80px;
+    right: 80px;
+    background: rgba(255, 236, 235, 0.8);
+}
+.content .con .login .login-mod {
+    width: 400px;
+    height: 52px;
+    border-bottom: 1px solid #cfbcbb; 
+}
+.content .con .login .login-mod div {
+    width: 200px;
+    height: 52px;
+    float: left;
+    text-align: center; 
+}
+.content .con .login .login-mod div a {
+    line-height: 52px;
+    color: #333; 
+}
+.content .con .login .login-form {
+    padding: 0 0 30px 44px; 
+}
+.content .con .login .login-form form {
+    margin-top: 44px; 
+}
+.content .con .login .login-form form #cuoTit_shouJi, .content .con .login .login-form form #cuoTit_userPass, .content .con .login .login-form form #cuoTit_checkMa {
+    display: none;
+    width: 200px;
+    text-indent: 22px;
+    line-height: 25px;
+    font-size: 12px;
+    color: #fe2780;
+    margin-bottom: 5px;
+    border: 1px solid #fed29c;
+    background: #fef6f4 url(../img/detailsImg/gth.png) no-repeat 10px 6px;
+    background-size: 10px 10px; 
+}
+.content .con .login .login-form form #captcha {
+    width: 100px;
+    height: 42px;
+    background: #fd5873;
+    float: left;
+    margin-right: 12px;
+    text-align: center;
+    line-height: 42px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer; 
+}
+.content .con .login .login-form form .shouJi {
+    width: 312px;
+    height: 40px;
+    border: 1px solid #d3c1bf;
+    margin-bottom: 15px;
+    background: none;
+    text-indent: 5px; 
+}
+.content .con .login .login-form form .checkMa {
+    width: 200px;
+    height: 40px;
+    border: 1px solid #d3c1bf;
+    margin-bottom: 15px;
+    background: none;
+    text-indent: 5px;
+    float: left;
+    outline: none; 
+}
+.content .con .login .login-form form .enter {
+    display: block;
+    width: 314px;
+    height: 40px;
+    margin-bottom: 15px;
+    background: #fd5873;
+    text-align: center;
+    line-height: 40px;
+    font-size: 12px;
+    color: #fff;
+    border: 0;
+    outline: none;
+    cursor: pointer; 
+}
+.content .con .login .login-form .weixin-login {
+    font-size: 12px;
+    color: #959595; 
+}
+.content .con .login .login-form .weixin-login span {
+    vertical-align: bottom; 
+}
+.content .con .login .login-form .weixin-login a {
+    color: #959595;
+    vertical-align: bottom;
+    text-decoration: underline; 
+}
+.content .con .login .login-form .weixin-login input {
+    vertical-align: bottom; 
+}
+.content .con .login .login-form .lg-reg {
+    text-align: right;
+    padding-right: 42px;
+    font-size: 12px; 
+}
+.content .con .login .login-form .lg-reg a {
+    text-decoration: underline;
+    color: #959595; 
+}
+.content .con .login .login-form .lg-reg .findpwd {
+  margin-right: 10px; 
+}
